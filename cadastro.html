@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p>Cadastro</p>
+    <a href="index.html">HOME</a>
+    <form method="POST" action="cadastro.php">
+        <table>
+            <tr>
+                <td>número</td>
+                <td><input type="text" size="2" maxlength="2" id="numero" name="numero"></td>
+            </tr>
+            <tr>
+                <td>nome</td>
+                <td><input type="text" id="nome" name="nome"></td>
+            </tr>  
+            <tr>
+                <td>Turma</td>
+                <td><select>
+                    <option>2º IAGRO</option>
+                    <option>2º INF</option>
+                    <option>2º FIN</option>
+                    <option>2º ADM</option>
+                    </td>
+                </select>
+            </tr>           
+            <tr>
+                <td><td><input type="reset" value="Limpar"></td></td>
+                <td><input type="submit" value="Salvar" class="btn btn-primary"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
